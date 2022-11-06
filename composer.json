@@ -1,0 +1,27 @@
+{
+    "name": "web-say/laravel-mini-logger-db",
+    "description": "Create log information in database",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "web-say",
+            "homepage": "https://github.com/web-say"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websay\\MiniLoggerDb\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Websay\\MiniLoggerDb\\Providers\\MiniLoggerDbServiceProvider"
+            ]
+        }
+    }
+}
